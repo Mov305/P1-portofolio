@@ -1,5 +1,6 @@
 /* variables */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --mainC: #6070ff;
   --secC: #344563;
@@ -12,51 +13,63 @@
   margin: 0;
   font-family: var(--mainF);
 }
+
 body {
   background-image: url('/assets/Header.svg');
   min-height: 100vh;
 }
+
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
+
 li {
   padding: 10px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 15px 30px;
 }
+
 .logo {
   color: var(--mainC);
   font-weight: 700;
   font-size: 18px;
   padding: 10px;
 }
+
 .pointer {
   cursor: pointer;
 }
+
 .pointer:hover {
   color: var(--mainC);
 }
+
 #desk-list {
   display: none;
 }
+
 #Union-menu {
   display: unset;
   padding: 18px;
 }
+
 main {
-  padding: 100px 40px 0px 40px;
+  padding: 100px 40px 0 40px;
 }
+
 h1 {
   margin-right: 80px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
+
 p {
   margin: 10px 0;
   font-weight: 400;
@@ -64,18 +77,21 @@ p {
   line-height: 24px;
   color: var(--secC);
 }
+
 h5 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: var(--sec2C);
 }
+
 #socials {
   width: 180px;
   padding: 0;
 }
+
 #socials :nth-child(1) {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 /* tablet */
@@ -84,16 +100,20 @@ h5 {
     display: flex;
     min-width: 200px;
   }
+
   #Union-menu {
     display: none;
   }
-  h1{
-    font-size:44px;
-    max-width:400px;
+
+  h1 {
+    font-size: 44px;
+    max-width: 400px;
   }
+
   main {
-    padding: 200px 100px 0px 100px;
+    padding: 200px 100px 0 100px;
   }
+
   p {
     font-size: 20px;
   }
@@ -104,13 +124,14 @@ h5 {
   nav {
     padding: 15px 150px;
   }
+
   main {
-    padding: 240px 260px 0px 260px;
+    padding: 240px 260px 0 260px;
   }
-  h1{
-    font-size:48px;
-    margin-right:170px;
-    max-width:600px;
+
+  h1 {
+    font-size: 48px;
+    margin-right: 170px;
+    max-width: 600px;
   }
 }
-
