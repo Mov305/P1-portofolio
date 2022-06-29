@@ -1,17 +1,15 @@
 # Project 1 : Portofolio
 
-This is Microvers first project 
+This is Microvers first project A portofolio project build with html and css.
 
 ## Built with
 
 Abdelrhman Samy Saad (MOV) 
 abd3052001@gmail.com
 
-## Project requirements
-1-Linters practice
-2-Documentation practice
 
 ## Getting started
+To downlad it locally.
 
 **Note**: this project requries no exteranl libraries 
 1- Download the repo or clone it from the github page
