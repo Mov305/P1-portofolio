@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url('/assets/Header.svg');
+  background-image: url('./assets/Header.svg');
   min-height: 100vh;
 }
 
