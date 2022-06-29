@@ -1,0 +1,24 @@
+/* fonts */
+
+/* mobile styles */
+
+/* tablet */
+@media screen and (min-width: 650px) {
+  * {
+    margin: 0;
+  }
+}
+
+/* desktops */
+@media screen and (min-width: 1000px) {
+  * {
+    margin: 0;
+  }
+}
+
+/* larger screans */
+@media screen and (min-width: 1250px) {
+  * {
+    margin: 0;
+  }
+}
