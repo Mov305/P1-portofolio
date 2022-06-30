@@ -88,7 +88,7 @@ p {
   color: var(--secC);
 }
 
-h5 {
+a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -98,6 +98,7 @@ h5 {
 .socials {
   width: 180px;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .socials :nth-child(1) {
@@ -108,7 +109,7 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 10px;
+  padding: 50px 25px;
 }
 
 .card {
@@ -190,7 +191,7 @@ h5 {
   text-align: center;
 }
 
-.card > h5 {
+.card > a {
   grid-area: 6/1/7/3;
   border: 1px solid #396df2;
   border-radius: 16px;
@@ -224,44 +225,47 @@ h5 {
 #lfs-section {
   margin-top: 50px;
   max-width: 380px;
+  flex-direction: column;
+  padding: 0;
 }
 
-#lfs-section > div > h4 {
+#lfs-section > li > h4 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   position: relative;
 }
 
-#lfs-section > div > h4 > img {
+#lfs-section > li > h4 > img {
   width: 30px;
   position: absolute;
   right: 20px;
 }
 
-#lfs-section > div > ul {
+#lfs-section > li > ul {
   padding: 0;
   flex-direction: column;
+  margin-top: 20px;
 }
 
-#lfs-section > div {
-  margin-top: 40px;
+#lfs-section > li {
+  margin: 20px 0;
   border-bottom: 1px solid #dfe1e6;
   padding: 10px 0;
 }
 
-#lfs-section > div > ul > li {
+#lfs-section > li > ul > li {
   max-width: 360px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
   padding: 10px;
-  margin: 5px 0;
+  margin: 8px 0;
   display: flex;
   align-items: center;
 }
 
-#lfs-section > div > ul > li > h6 {
+#lfs-section > li > ul > li > h6 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
