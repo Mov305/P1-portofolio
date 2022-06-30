@@ -1,18 +1,37 @@
-# Project 1 : Portofolio
+# Portfolio: setup and mobile version skeleton
 
-This is Microvers first project 
+    This is a portfolio web page fully responsive for mobile & tablets & desktops
 
-## Authors
+## Built With
 
-Abdelrhman Samy Saad (MOV) 
-abd3052001@gmail.com
+    CSS
+    HTML5
 
-## Project requirements
-1-Linters practice
-2-Documentation practice
+## Getting Started
 
-## Set-up the project
+To get a local copy up and running follow these simple example steps.
+1- Download the zip file or clone it via git
+2- after you get the project to your local machine open the index.html file or simply run the live server
+3- to Check for linters run (npx hint .) for html code fixed and npx stylelint "**/*.{css,scss}"
 
-**Note**: this project requries no exteranl libraries 
-1- Download the repo or clone it from the github page
-2- Unzip the documents then open the index.html file
+### Authors
+
+👤 Author1
+
+    GitHub: @Mov305
+    Twitter: @abd_mov
+
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+Show your support
+
+Give a ⭐️ if you like this project!
+Acknowledgments
+
+    Hat tip to anyone whose code was used
+    Inspiration
+    etc
