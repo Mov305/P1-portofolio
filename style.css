@@ -116,7 +116,7 @@ a {
   display: grid;
   grid-template: repeat(6, auto) / repeat(5, 20%);
   height: 560px;
-  width: 330px;
+  max-width: 330px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -245,7 +245,7 @@ a {
 #lfs-section > li > ul {
   padding: 0;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #lfs-section > li {
