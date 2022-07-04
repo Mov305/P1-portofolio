@@ -187,8 +187,10 @@ a {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  display: inline-block;
   text-align: center;
+  float:left;
+  list-style-type:none;
+  
 }
 
 .card > a {
