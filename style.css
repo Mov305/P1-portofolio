@@ -332,14 +332,14 @@ form > button {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  border-radius:8px;
-  transition:all ease-in-out 0.2s;
+  border-radius: 8px;
+  transition: all ease-in-out 0.2s;
 }
 
 form > button:hover {
   border: 1px solid #ebebff;
-  background:#6070ff;
-  color:white;
+  background: #6070ff;
+  color: white;
 }
 
 /* tablet */
