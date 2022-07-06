@@ -34,6 +34,9 @@ nav {
   justify-content: space-between;
   padding: 15px 30px;
   background: white;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 60px);
 }
 
 .logo {
@@ -480,6 +483,7 @@ form > button:hover {
 @media screen and (min-width: 1200px) {
   nav {
     padding: 15px 150px;
+    width: calc(100% - 300px)
   }
 
   main {
