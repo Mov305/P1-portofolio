@@ -124,8 +124,9 @@ a {
   transition: all ease-in-out 0.2s;
 }
 
-.card > div > img {
+.card>div>img {
   width: 100%;
+  transition: all ease-in-out 0.2s;
 }
 
 .details {
@@ -134,14 +135,14 @@ a {
   gap: 20px;
 }
 
-.details > h2 {
+.details>h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
 }
 
-.details > ul {
+.details>ul {
   list-style-type: unset;
   font-weight: 600;
   font-size: 13px;
@@ -150,11 +151,11 @@ a {
   justify-content: flex-start;
 }
 
-.details > ul > li {
+.details>ul>li {
   margin-left: 30px;
 }
 
-.details > ul :nth-child(1) {
+.details>ul :nth-child(1) {
   font-weight: 600;
   font-size: 13px;
   line-height: 18px;
@@ -163,7 +164,7 @@ a {
   list-style-type: none;
 }
 
-.details > p {
+.details>p {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -172,7 +173,7 @@ a {
   margin: 0;
 }
 
-.details > menu {
+.details>menu {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -181,7 +182,7 @@ a {
   padding: 0;
 }
 
-.details > menu > li {
+.details>menu>li {
   padding: 7px 12px 0;
   margin: 5px 5px 5px 0;
   height: 24px;
@@ -192,7 +193,7 @@ a {
   list-style-type: none;
 }
 
-.details > a {
+.details>a {
   border: 1px solid #396df2;
   border-radius: 14px;
   font-size: 17px;
@@ -232,32 +233,32 @@ a {
   padding: 0;
 }
 
-#lfs-section > li > h4 {
+#lfs-section>li>h4 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   position: relative;
 }
 
-#lfs-section > li > h4 > img {
+#lfs-section>li>h4>img {
   width: 30px;
   position: absolute;
   right: 20px;
 }
 
-#lfs-section > li > ul {
+#lfs-section>li>ul {
   padding: 0 15px 0 0;
   flex-direction: column;
   margin-top: 30px;
 }
 
-#lfs-section > li {
+#lfs-section>li {
   margin: 20px 0;
   border-bottom: 1px solid #dfe1e6;
   padding: 10px 0;
 }
 
-#lfs-section > li > ul > li {
+#lfs-section>li>ul>li {
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -267,7 +268,7 @@ a {
   align-items: center;
 }
 
-#lfs-section > li > ul > li > h6 {
+#lfs-section>li>ul>li>h6 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -287,14 +288,14 @@ a {
   color: white;
 }
 
-#contact > div > h2 {
+#contact>div>h2 {
   margin-top: 105px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
-#contact > div > p {
+#contact>div>p {
   margin: 12px 24px 0 24px;
   font-weight: 400;
   font-size: 20px;
@@ -302,7 +303,7 @@ a {
   color: #ebebff;
 }
 
-#contact > form {
+#contact>form {
   margin: 80px auto;
   display: flex;
   flex-direction: column;
@@ -310,7 +311,7 @@ a {
   width: calc(100% - 48px);
 }
 
-#contact > form > input {
+#contact>form>input {
   height: 48px;
   border-radius: 8px;
   padding-left: 10px;
@@ -323,7 +324,7 @@ a {
   color: gray;
 }
 
-form > button {
+form>button {
   width: 150px;
   height: 50px;
   background-color: white;
@@ -336,7 +337,7 @@ form > button {
   transition: all ease-in-out 0.2s;
 }
 
-form > button:hover {
+form>button:hover {
   border: 1px solid #ebebff;
   background: #6070ff;
   color: white;
@@ -367,6 +368,10 @@ form > button:hover {
   color: white;
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.card:hover img {
+  transform: scale(1.05);
 }
 
 .card:active .btn-action {
@@ -419,11 +424,11 @@ form > button:hover {
     padding-top: 25px;
   }
 
-  #projects :nth-child(2n) > .details {
+  #projects :nth-child(2n)>.details {
     order: 1;
   }
 
-  #projects :nth-child(2n) > .card-img {
+  #projects :nth-child(2n)>.card-img {
     order: 2;
   }
 
@@ -441,7 +446,7 @@ form > button:hover {
     max-width: 100%;
   }
 
-  #lfs-section > li {
+  #lfs-section>li {
     margin: 0 0 20px 0;
   }
 
@@ -449,12 +454,12 @@ form > button:hover {
     width: 60%;
   }
 
-  #languages > ul {
+  #languages>ul {
     flex-direction: row !important;
     justify-content: flex-start;
   }
 
-  #languages > ul > li {
+  #languages>ul>li {
     flex-direction: column !important;
     margin: 0 10px 10px 0 !important;
     width: 120px;
@@ -462,7 +467,7 @@ form > button:hover {
     justify-content: space-evenly;
   }
 
-  #languages > ul > li > h6 {
+  #languages>ul>li>h6 {
     margin: 0 !important;
   }
 
@@ -470,11 +475,11 @@ form > button:hover {
     align-items: center;
   }
 
-  #contact > div {
+  #contact>div {
     max-width: 700px;
   }
 
-  #contact > form {
+  #contact>form {
     max-width: 500px;
   }
 }
@@ -505,11 +510,11 @@ form > button:hover {
     padding: 142px;
   }
 
-  #contact > div {
+  #contact>div {
     max-width: 800px;
   }
 
-  #contact > form {
+  #contact>form {
     max-width: 600px;
   }
 }
