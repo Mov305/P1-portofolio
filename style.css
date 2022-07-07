@@ -126,6 +126,7 @@ a {
 
 .card > div > img {
   width: 100%;
+  transition: all ease-in-out 0.2s;
 }
 
 .details {
@@ -237,6 +238,10 @@ a {
   font-size: 20px;
   line-height: 24px;
   position: relative;
+}
+
+.card:hover img {
+  transform: scale(1.05);
 }
 
 #lfs-section > li > h4 > img {
@@ -483,7 +488,7 @@ form > button:hover {
 @media screen and (min-width: 1200px) {
   nav {
     padding: 15px 150px;
-    width: calc(100% - 300px)
+    width: calc(100% - 300px);
   }
 
   main {
