@@ -1,6 +1,8 @@
 # Portfolio: setup and mobile version skeleton
 
     This is a portfolio web page fully responsive for mobile & tablets & desktops
+## live version
+   -[Live_Demo]](https://mov305.github.io/P1-portofolio/)    
 
 ## Built With
 
