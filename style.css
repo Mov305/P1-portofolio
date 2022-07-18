@@ -14,6 +14,10 @@
   font-family: var(--mainF);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   background: #f7f7f9;
@@ -37,6 +41,8 @@ nav {
   position: fixed;
   top: 0;
   width: calc(100% - 60px);
+  box-shadow: 0 0 3px gray;
+  z-index: 2;
 }
 
 .logo {
@@ -51,7 +57,12 @@ nav {
 }
 
 .pointer:hover {
-  color: var(--mainC);
+  color: var(--mainC) !important;
+}
+
+.active {
+  color: var(--mainC) !important;
+  border-bottom: 2px solid var(--mainC);
 }
 
 #desk-list {
@@ -377,6 +388,11 @@ form > button:hover {
 .card:active .btn-action {
   color: white;
   background: #2230d2;
+}
+
+#desk-list > li > a {
+  text-decoration: none;
+  color: black;
 }
 
 /* tablet */
