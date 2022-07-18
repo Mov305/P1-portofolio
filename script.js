@@ -1,4 +1,3 @@
-/*  eslint linebreak-style: ["error", "windows"]    */
 const menu = document.querySelector('#Union-menu');
 const close = document.querySelector('#nav-button-close');
 const navs = document.querySelector('#menu-navs');
