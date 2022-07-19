@@ -172,12 +172,12 @@
 
 @media screen and (min-width: 650px) {
   #pop-up {
-    padding: 20px 80px;
+    padding: 20px 142px;
   }
 
   #pop-up > div {
     border-radius: 28px;
-    width: calc(100% - 160px);
+    width: calc(100% - 284px);
   }
 
   #popup-details {
@@ -189,14 +189,22 @@
     max-width: unset;
     height: 50vh;
     overflow: hidden;
+    border-radius: 20px;
   }
 
   #popup-img > img {
     -o-object-fit: cover;
     object-fit: cover;
+    background-size: cover;
+    height: 100%;
   }
 
   #popup-details > p {
     width: 70%;
+  }
+
+  #popup-head > span {
+    margin: 8px;
+    cursor: pointer;
   }
 }
