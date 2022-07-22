@@ -11,7 +11,7 @@ menu.addEventListener('click', () => {
   navs.classList.toggle('hidden');
 });
 
-links.forEach((ele) => ele.addEventListener('click', () => {
+links.forEach(ele) => ele.addEventListener('click', () => {
   navs.classList.toggle('hidden');
 }));
 
@@ -37,7 +37,7 @@ const projectArray = [
     id: 0,
     imgURL: './assets/Snapshoot-Portfolio-4.png',
     heading: 'Multi-Post Stories',
-    firstList: ['CANOPY', 'Back End', '2015'],
+    firstList: ['CANOPY', 'Back End', '2015']
     text: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     secList: ['HTML', 'CSS', 'JavaScript'],
   },
@@ -80,7 +80,7 @@ const PopUp = document.querySelector('#pop-up');
 const cards = document.querySelectorAll('.card a');
 
 closePopup.addEventListener('click', () => {
-  PopUp.classList.toggle('hidden');
+  PopUp.classList.toggle('hidden'
 });
 
 const makePopup = ({
@@ -106,7 +106,8 @@ const makePopup = ({
 };
 
 cards.forEach((ele, i) => {
-  ele.addEventListener('click', () => {
+  ele.addEventListener('click', () = {
     makePopup(projectArray[i]);
   });
 });
+
